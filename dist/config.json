@@ -1,0 +1,22 @@
+{
+  "SERVICE": {
+    "value": "auth-cache-service",
+    "type": "id"
+  },
+  "STATEFUL": {
+    "value": "auth-cache-set",
+    "type": "id"
+  },
+  "INTERNAL_HOST": {
+    "value": "auth-cache-service.microservices-namespace",
+    "type": "host"
+  },
+  "INTERNAL_PORT": {
+    "value": 6379,
+    "type": "port"
+  },
+  "INTERNAL_URL": {
+    "value": "auth-cache-service.microservices-namespace:6379",
+    "type": "url"
+  }
+}
